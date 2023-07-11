@@ -15,4 +15,3 @@ attachRules:
     - context: CONTEXTLESS
       key: keptn_stage
       value: $STAGE
-
