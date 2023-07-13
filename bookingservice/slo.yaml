@@ -28,6 +28,18 @@ objectives:
             - '>=99.980000'
       weight: 1
       key_sli: false
+    - sli: graph
+      displayName: Graph
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <80.000000
+      warning:
+        - criteria:
+            - '>=0.000000'
+            - <90.000000
+      weight: 1
+      key_sli: false
 total_score:
     pass: 90%
     warning: 75%
